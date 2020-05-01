@@ -17,7 +17,9 @@ namespace FluentInterfaceUsingLoanClass
                     .HasAnnualRateOf(23.15)
                     .HasLimitOf(2000);
 
-            Console.Read();
+            Console.WriteLine(loan);
+
+            Console.ReadLine();
         }
     }
 
